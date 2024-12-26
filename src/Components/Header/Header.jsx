@@ -16,7 +16,7 @@ function Header() {
       <div className={styles.center_Header_Wrapper}>
         <p>
           25 <img src={reactLogo} alt="React Logo" />
-          Project From FreeCodeCamp
+          Projects You Can Practice With
         </p>
       </div>
       <div className={styles.right_Header_Wrapper}>
