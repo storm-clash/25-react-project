@@ -2,18 +2,20 @@ import styles from "./header.module.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import reactLogo from "../../assets/react_logo.svg";
+import jm from "../../assets/jm.svg";
 
 function Header() {
   return (
     <header>
       <div className={styles.left_Header_Wrapper}>
         <picture>
-          <img className={styles.logo} src="src/assets/jm.svg" />
+          <img className={styles.logo} src={jm} alt="JM Logo" />
         </picture>
       </div>
       <div className={styles.center_Header_Wrapper}>
         <p>
-          25 <img src="src/assets/react_logo.svg" alt="React Logo" />
+          25 <img src={reactLogo} alt="React Logo" />
           Project From FreeCodeCamp
         </p>
       </div>
