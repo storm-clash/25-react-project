@@ -1,5 +1,6 @@
 import styles from "./home.module.css";
 import { Link } from "react-router-dom";
+import reactLogo from "../../assets/react_logo.svg";
 
 function Home() {
   return (
@@ -19,7 +20,7 @@ function Home() {
         <Link to="/UseState">
           <div className={styles.hooks}>
             <div className={styles.wrapper_up}>
-              <img src="src/assets/react_logo.svg" alt="React Logo" />
+              <img src={reactLogo} alt="React Logo" />
               <p>UseState()</p>
             </div>
             <div className={styles.wrapper_down}></div>
@@ -28,28 +29,28 @@ function Home() {
 
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
-            <img src="src/assets/react_logo.svg" alt="React Logo" />
+            <img src={reactLogo} alt="React Logo" />
             <p>UseEffect()</p>
           </div>
           <div className={styles.wrapper_down}></div>
         </div>
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
-            <img src="src/assets/react_logo.svg" alt="React Logo" />
+            <img src={reactLogo} alt="React Logo" />
             <p>Props</p>
           </div>
           <div className={styles.wrapper_down}></div>
         </div>
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
-            <img src="src/assets/react_logo.svg" alt="React Logo" />
+            <img src={reactLogo} alt="React Logo" />
             <p>API</p>
           </div>
           <div className={styles.wrapper_down}></div>
         </div>
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
-            <img src="src/assets/react_logo.svg" alt="React Logo" />
+            <img src={reactLogo} alt="React Logo" />
             <p>Components</p>
           </div>
           <div className={styles.wrapper_down}></div>
@@ -59,7 +60,7 @@ function Home() {
         <Link to="/Dropdown">
           <div className={styles.hooks}>
             <div className={styles.wrapper_up}>
-              <img src="src/assets/react_logo.svg" alt="React Logo" />
+              <img src={reactLogo} alt="React Logo" />
               <p>Dropdown</p>
             </div>
             <div className={styles.wrapper_down}></div>
@@ -68,7 +69,7 @@ function Home() {
         <Link to="/RandomColor">
           <div className={styles.hooks}>
             <div className={styles.wrapper_up}>
-              <img src="src/assets/react_logo.svg" alt="React Logo" />
+              <img src={reactLogo} alt="React Logo" />
               <p>Random Color</p>
             </div>
             <div className={styles.wrapper_down}></div>
@@ -77,21 +78,21 @@ function Home() {
 
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
-            <img src="src/assets/react_logo.svg" alt="React Logo" />
+            <img src={reactLogo} alt="React Logo" />
             <p>Props</p>
           </div>
           <div className={styles.wrapper_down}></div>
         </div>
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
-            <img src="src/assets/react_logo.svg" alt="React Logo" />
+            <img src={reactLogo} alt="React Logo" />
             <p>API</p>
           </div>
           <div className={styles.wrapper_down}></div>
         </div>
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
-            <img src="src/assets/react_logo.svg" alt="React Logo" />
+            <img src={reactLogo} alt="React Logo" />
             <p>Components</p>
           </div>
           <div className={styles.wrapper_down}></div>
