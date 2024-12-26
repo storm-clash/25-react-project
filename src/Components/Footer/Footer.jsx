@@ -2,7 +2,7 @@ import styles from "./footer.module.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <p>This is the footer</p>
     </footer>
   );
