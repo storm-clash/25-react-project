@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  --light-grey: hsl(0, 0%, 80%);
+  --light-grey: hsl(0, 0%, 90%);
   --light-blue: hsl(200, 100%, 80%);
   --bootstrap-blue: hsl(215, 100%, 53%);
   font-synthesis: none;
@@ -74,6 +74,22 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.flex_Column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.flex_Row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
 }
 
 @media (prefers-color-scheme: light) {

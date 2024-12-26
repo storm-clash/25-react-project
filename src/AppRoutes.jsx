@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import UseState from "./Components/UseState/UseState";
 import Dropdown from "./Components/Dropdown/Dropdown";
 import RandomColor from "./Components/RandomColor/RandomColor";
+import StarRating from "./Components/StarRating/StarRating";
 
 function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
         <Route path="/UseState" element={<UseState />} />
         <Route path="/Dropdown" element={<Dropdown />} />
         <Route path="/RandomColor" element={<RandomColor />} />
+        <Route path="/Stars" element={<StarRating />} />
       </Routes>
       <Footer />
     </>

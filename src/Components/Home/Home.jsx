@@ -75,14 +75,16 @@ function Home() {
             <div className={styles.wrapper_down}></div>
           </div>
         </Link>
-
-        <div className={styles.hooks}>
-          <div className={styles.wrapper_up}>
-            <img src={reactLogo} alt="React Logo" />
-            <p>Props</p>
+        <Link to="/Stars">
+          <div className={styles.hooks}>
+            <div className={styles.wrapper_up}>
+              <img src={reactLogo} alt="React Logo" />
+              <p>Rating Stars</p>
+            </div>
+            <div className={styles.wrapper_down}></div>
           </div>
-          <div className={styles.wrapper_down}></div>
-        </div>
+        </Link>
+
         <div className={styles.hooks}>
           <div className={styles.wrapper_up}>
             <img src={reactLogo} alt="React Logo" />
